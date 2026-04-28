@@ -1,1 +1,70 @@
 /*  your css code here. If applicable */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(204, 204, 204);
+    padding: 30px;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .playlist-box {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 12px 0;
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration-line: none;
+    color: #222;
+    transition: 0.3s;
+  }
+
+  a:hover {
+    color: #0077ff;
+    padding-left: 8px;
+  }
+
+  .player_one {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    width: 80%;
+    margin: 25px auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+  }
+
+  video,
+  audio {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .song-title {
+    text-align: center;
+    font-size: 20px;
+    margin: 18px 0;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .sub-heading {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
