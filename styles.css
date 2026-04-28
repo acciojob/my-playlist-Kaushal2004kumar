@@ -54,6 +54,7 @@ body {
   audio {
     width: 100%;
     border-radius: 12px;
+	background-color: rgb(255, 255, 255);
   }
 
   .song-title {
